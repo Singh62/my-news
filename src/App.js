@@ -15,7 +15,7 @@ const App = ()=> {
     return (
       <div>
         <h1>hello shreya</h1>
-        <BrowserRouter>
+        <BrowserRouter basename={window.location.pathname || ''}>
         <NavBar/> 
         {/* <LoadingBar
         height={3}
